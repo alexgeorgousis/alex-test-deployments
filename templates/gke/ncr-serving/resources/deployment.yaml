@@ -22,8 +22,6 @@ spec:
       labels:
         app: ncr-serving-deployment
     spec:
-      serviceAccountName: mlops-sa
-
       containers:
       - name: ncr-serving-container
         image: us.gcr.io/nbcu-disco-mgmt-003/mlops/ncr-serving:e0ac7a9
