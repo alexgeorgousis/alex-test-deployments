@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/alexgeorgousis/alex-test-deployments
     targetRevision: main
-    path: templates/gke/ncr-serving/*
+    path: templates/gke/ncr-serving/resources
   destination:
     server: https://kubernetes.default.svc
     namespace: mlops
